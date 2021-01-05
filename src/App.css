@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+.banner-header {
+  width: 100%;
+  height: 120vh;
+  background: url("/home/nitin/Desktop/my portfolio/my-portfolio/src/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+
+/*----------------------------------------navbar--------------------------------------------------------*/
+.navbar {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__container {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.navbar__left-logo {
+  width: 110px;
+}
+.navbar__left-logo a{
+  text-decoration: none;
+  color:darkviolet;
+  font-size: 25;
+  font-weight: 600;
+}
+.navbar__right {
+  display: flex;
+  list-style-type: none;
+  margin-left: 150px;
+}
+
+.navbar__right li a {
+  text-decoration: none;
+  color:indianred;
+  font-weight: 500;
+  font-size: 10px;
+  padding: 0 15px;
+  margin-left: 20px;
+ 
+}
+.toggle
+{
+  position: fixed;
+  top: 25px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+ /* --------------------------------------------navbar end--------------------------------------------------------*/
+
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.col-6
+{
+  width: 50%;
+}
+
+.header__ul 
+{
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 20px;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  height: 120vh;
+  width: 100%;
+  color: #fff;
+}
+
+.header__ul  li 
+{
+  margin-left: 40px;
+  border: 1px solid red;
+  border-radius: 60%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s linear;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.media-element  .facebook:hover
+{
+  background:blue;
+  border:transparent;
+}
+.media-element .twitter:hover
+{
+  background: lightskyblue;
+  border:transparent;
+}
+.media-element .linkedin:hover
+{
+  background:mediumblue;
+  border:transparent;
+}
+.media-element .instagram:hover
+{
+  background: plum;
+  border:transparent;
+}
+.media-element .hackerrank:hover
+{
+  background: green;
+  border:transparent;
+}
+.toggle
+{
+  display: none;
+}
+.media-element
+{
+  display: flex;
+  margin-top: 200px;
+  list-style-type: none;
+}
+.media-element li
+{
+  margin-left: 30px;
+  border: 1px solid red;
+  border-radius: 60%;
+  display: flex;
+  transition: all 0.5s linear;
+  cursor: pointer;
+  padding: 5px;
+}
+.name-color
+{
+  color:blue;
+}
+.p_color
+{
+  color: black;
+}
+
+/*--------------------------------------------------about section---------------------------------------------*/
+
+.about
+{
+  margin-top: 30px;
+  text-align: center; 
+}
+
+.container .card
+{
+  margin-top: 20px;
+  border-radius: 10px ;
+  border: 1px solid;
+}
+.container .card .card-header
+{
+  text-align: center;
+  color: white;
+  background-color:lightgray;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/*---------------------------------------------------------------------skills-------------------------------------------*/
+
+.card-body ul li
+{
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+/*--------------------------------------------------projects_section---------------------------------------------------*/
+
+.row .col .card{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-shadow: 1px 8px 8px 5px grey;
+  margin-left: 20px;
+}
+
+/*---------------------------------------------------contact us-------------------------------------------------------------*/
+.card-control
+{
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.card button
+{
+  margin-top: 20px;
+  border-radius: 3px;
+  color: white;
+  background-color: blue;
+  margin-bottom: 20px;
+}
+.footer
+{
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  border: 0;
+  text-align: center;
+}
+
+
+/*----------------------------------------------------------------media--------------------------------------------*/
+@media(max-width:765px)
+{
+  .toggle
+  {
+    display: flex;
+  }
+  .navbar__right {
+    flex-direction: column;
+    align-items: center;
+    background: #5c66a5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-right: 70px;
+    margin-top: 30px;
+  }
+  .navbar__right li a {
+    display: block;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  
+ 
+  
+  
+}
+
+
+
+
+
