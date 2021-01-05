@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.a1e52a49.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.57de6d18.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.57de6d18.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.b47c9c33.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.b47c9c33.js.map",
+    "static/css/2.9648bd54.chunk.css": "/my-portfolio/static/css/2.9648bd54.chunk.css",
+    "static/js/2.d336a84d.chunk.js": "/my-portfolio/static/js/2.d336a84d.chunk.js",
+    "static/js/2.d336a84d.chunk.js.map": "/my-portfolio/static/js/2.d336a84d.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/2.9648bd54.chunk.css.map": "/my-portfolio/static/css/2.9648bd54.chunk.css.map",
+    "static/css/main.a1e52a49.chunk.css.map": "/my-portfolio/static/css/main.a1e52a49.chunk.css.map",
+    "static/js/2.d336a84d.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.d336a84d.chunk.js.LICENSE.txt",
+    "static/media/NITIN_FrontEnd_Dev.89e871ac.pdf": "/my-portfolio/static/media/NITIN_FrontEnd_Dev.89e871ac.pdf",
+    "static/media/App.css": "/my-portfolio/static/media/bg.36e12c60.jpg",
+    "static/media/farmer_basket.bb3ac6b9.jpg": "/my-portfolio/static/media/farmer_basket.bb3ac6b9.jpg",
+    "static/media/scholarship_img.41d84077.jpg": "/my-portfolio/static/media/scholarship_img.41d84077.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b47c9c33.js",
+    "static/css/2.9648bd54.chunk.css",
+    "static/js/2.d336a84d.chunk.js",
+    "static/css/main.a1e52a49.chunk.css",
+    "static/js/main.57de6d18.chunk.js"
+  ]
+}
